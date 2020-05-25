@@ -1,5 +1,5 @@
 # cython_test
-My first attempt at cython
+My first attempt at cython.
 
 First run:
 
@@ -11,4 +11,10 @@ Then:
 
 ```
 $ python -m pytest
+```
+
+Example is from:
+
+```
+https://pytestguide.readthedocs.io/en/latest/pytestGuide/
 ```
