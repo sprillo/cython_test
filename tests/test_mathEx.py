@@ -1,5 +1,5 @@
-from mathEx import stat2Num
-from mathCy import stat2NumCy
+from src.mathEx import stat2Num
+from src.mathCy import stat2NumCy
 
 
 class Test_stat2Num(object):
