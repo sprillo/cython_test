@@ -27,6 +27,12 @@ Example is from:
 https://pytestguide.readthedocs.io/en/latest/pytestGuide/
 ```
 
+When running from ipython or jupyter, you might need to do this first or the cython module might not be found:
+```
+import pyximport
+pyximport.install(reload_support=True)
+```
+
 TODO: pyproject.toml as per https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html ?
 
 TODO: numpy as per https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html ? `You need to add this path only if you use cimport numpy.'
